@@ -19,7 +19,7 @@ btn1 = Button(root,text="Open",fg="white",bg="black",font=30,command=showmsg).pa
 
 #textbox
 txt = StringVar()
-mytxt = Entry(root,textvariable=txt).pack()
+mytxt = Entry(root,textvariable=txt,bg="black",fg="white").pack()
 
 
 #ขนาดหน้าจอ&ตำแหน่ง
